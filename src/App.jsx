@@ -1,7 +1,8 @@
 import './App.css';
+import { HoverComponent } from './hooks/useHover/HoverComponent';
 
 function App() {
-  return <h1>GO!</h1>;
+  return <HoverComponent />;
 }
 
 export default App;
