@@ -1,7 +1,8 @@
 import './App.css';
+import { EventListenerComponent } from './hooks/useEventListener/EventListenerComponent';
 
 function App() {
-  return <h1>GO!</h1>;
+  return <EventListenerComponent />;
 }
 
 export default App;
