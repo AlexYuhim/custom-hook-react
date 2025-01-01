@@ -10,6 +10,6 @@ export function EventListenerComponent() {
     [setKey]
   );
 
-  useEventListener('keydown', cbKeydown);
-  return key;
+  useEventListener('keydown', cbKeydown, { current: window });
+  return <div>{key}</div>;
 }
