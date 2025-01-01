@@ -1,11 +1,12 @@
 import './App.css';
 import { EventListenerComponent } from './hooks/useEventListener/EventListenerComponent';
-import HoverComponent from './hooks/useHover/HoverComponent';
+import { ComponentWindowScroll } from './hooks/useWindowScroll/ComponentWindowScroll';
 
 function App() {
   return (
     <>
       <EventListenerComponent />
+      <ComponentWindowScroll />
     </>
   );
 }
