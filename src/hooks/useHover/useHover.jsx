@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import useEventListener from '../useEventListener/useEventListener';
 
 export default function useHover() {
