@@ -1,7 +1,8 @@
 import './App.css';
+import { ComponentUseToggle } from './hooks/useToggle/ComponentUseToggle';
 
 function App() {
-  return <h1>GO!</h1>;
+  return <ComponentUseToggle />;
 }
 
 export default App;
