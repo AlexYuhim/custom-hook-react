@@ -1,12 +1,13 @@
 import './App.css';
 import { EventListenerComponent } from './hooks/useEventListener/EventListenerComponent';
-import HoverComponent from './hooks/useHover/HoverComponent';
+import { ComponentViewportSize } from './hooks/useViewportSize/ComponentViewportSize';
 
 function App() {
   return (
     <>
       <EventListenerComponent />
       <HoverComponent />
+      <ComponentViewportSize />
     </>
   );
 }
